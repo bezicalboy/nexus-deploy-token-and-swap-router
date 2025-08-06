@@ -7,7 +7,7 @@ import solc from 'solc';
 config();
 
 // --- Configuration ---
-const NEXUS_TESTNET_RPC = 'https://testnet1.helioschainlabs.org/';
+const NEXUS_TESTNET_RPC = 'https://nexus.explorer.caldera.xyz';
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 // --- In-Memory Solidity Contracts ---
