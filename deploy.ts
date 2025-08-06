@@ -140,7 +140,7 @@ async function deploy() {
     const privateKey = process.env.PRIVATE_KEY;
     if (!privateKey) throw new Error("Missing PRIVATE_KEY in .env");
     
-    const rpc =  process.env.RPC_URL; // Or load from rpc.txt
+    const rpc =  "https://nexus.rpc.caldera.xyz/http"; // Or load from rpc.txt
     const provider = new ethers.JsonRpcProvider(rpc);
     const wallet = new ethers.Wallet(privateKey, provider);
     
